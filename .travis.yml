@@ -6,4 +6,4 @@ script:
   - echo "Installing dep."
   - npm install
   - echo 'running tests'
-  - testcafe "chrome:headless" tests/firstTest.js
+  - testcafe "chrome:headless" tests/*
