@@ -7,3 +7,9 @@ script:
   - npm install
   - echo 'running tests'
   - testcafe "chrome:headless" tests/*
+notifications:
+  email:
+    recipients:
+      - adityaprakash.2811@gmail.com
+    on_success: always # default: change
+    on_failure: always # default: always
